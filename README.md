@@ -50,27 +50,27 @@ The solution uses a **Python + Pandas ETL pipeline** to extract data from a publ
 
 #### **1️⃣ Line Chart – Cases Over Time**
 
-![Dashboard1](Gobal_Healthcare_Project\images/Dashboard1.png)
+![Dashboard1](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Dashboard1.png)
 
 #### **2️⃣ Bar Chart – Vaccinations**
 
-![Dashboard2](Gobal_Healthcare_Project\images/Dashboard2.png)
+![Dashboard2](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Dashboard2.png)
 
 #### **3️⃣ Area Chart – Death Trends**
 
-![Dashboard3](Gobal_Healthcare_Project\images/Dashboard3.png)
+![Dashboard3](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Dashboard3.png)
 
 #### **4️⃣ Global Cumulative Map**
 
-![Dashboard4](Gobal_Healthcare_Project\images/Dashboard4.png)
+![Dashboard4](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Dashboard4.png)
 
 #### **5️⃣ Summary Statistics**
 
-![Dashboard5](Gobal_Healthcare_Project\images/Dashboard5.png)
+![Dashboard5](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Dashboard5.png)
 
 #### **6️⃣ Raw Data Viewer**
 
-![Dashboard6](Gobal_Healthcare_Project\images/Dashboard6.png)
+![Dashboard6](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Dashboard6.png)
 
 ---
 
