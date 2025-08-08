@@ -1,0 +1,32 @@
+2025-08-02 14:37:17,440 [INFO] Streamlit dashboard started at 2025-08-02 14:37:17.440018
+2025-08-02 14:37:17,441 [INFO] Streamlit dashboard started at 2025-08-02 14:37:17.441103
+2025-08-02 14:37:17,441 [INFO] Streamlit dashboard started at 2025-08-02 14:37:17.441379
+2025-08-02 14:39:42,660 [INFO] Streamlit dashboard started at 2025-08-02 14:39:42.660724
+2025-08-02 14:39:42,661 [INFO] Streamlit dashboard started at 2025-08-02 14:39:42.661706
+2025-08-02 14:39:42,662 [INFO] Streamlit dashboard started at 2025-08-02 14:39:42.661983
+2025-08-02 14:39:42,697 [INFO] Streamlit dashboard started at 2025-08-02 14:39:42.696968
+2025-08-02 14:40:04,825 [INFO] Streamlit dashboard started at 2025-08-02 14:40:04.825055
+2025-08-02 14:45:18,295 [INFO] Streamlit dashboard started at 2025-08-02 14:45:18.295694
+2025-08-02 14:45:18,298 [INFO] Streamlit dashboard started at 2025-08-02 14:45:18.298142
+2025-08-02 14:45:18,394 [INFO] Connected to MySQL at 2025-08-02 14:45:18.394497
+2025-08-02 14:45:18,745 [INFO] Dashboard rendered successfully for India - total_cases
+2025-08-02 14:45:19,761 [INFO] Connected to MySQL at 2025-08-02 14:45:19.761871
+2025-08-02 14:45:19,830 [INFO] Dashboard rendered successfully for India - total_cases
+2025-08-02 14:45:30,770 [INFO] Streamlit dashboard started at 2025-08-02 14:45:30.770345
+2025-08-02 14:45:30,794 [INFO] Connected to MySQL at 2025-08-02 14:45:30.794171
+2025-08-02 14:45:30,871 [INFO] Dashboard rendered successfully for India - total_vaccinations
+2025-08-02 14:45:35,727 [INFO] Streamlit dashboard started at 2025-08-02 14:45:35.727890
+2025-08-02 14:45:35,756 [INFO] Connected to MySQL at 2025-08-02 14:45:35.756390
+2025-08-02 14:45:35,822 [INFO] Dashboard rendered successfully for Brazil - total_vaccinations
+2025-08-02 14:46:30,469 [INFO] Streamlit dashboard started at 2025-08-02 14:46:30.469388
+2025-08-02 14:46:30,500 [INFO] Connected to MySQL at 2025-08-02 14:46:30.500947
+2025-08-02 14:46:30,570 [INFO] Dashboard rendered successfully for India - total_vaccinations
+2025-08-02 14:46:49,283 [INFO] Streamlit dashboard started at 2025-08-02 14:46:49.283922
+2025-08-02 14:46:49,318 [INFO] Connected to MySQL at 2025-08-02 14:46:49.317741
+2025-08-02 14:46:49,388 [INFO] Dashboard rendered successfully for India - people_fully_vaccinated
+2025-08-02 14:46:53,954 [INFO] Streamlit dashboard started at 2025-08-02 14:46:53.954790
+2025-08-02 14:46:53,983 [INFO] Connected to MySQL at 2025-08-02 14:46:53.983330
+2025-08-02 14:46:54,057 [INFO] Dashboard rendered successfully for India - people_vaccinated
+2025-08-02 14:48:05,139 [INFO] Streamlit dashboard started at 2025-08-02 14:48:05.138918
+2025-08-02 14:48:05,155 [INFO] Connected to MySQL at 2025-08-02 14:48:05.155735
+2025-08-02 14:48:05,194 [INFO] Dashboard rendered successfully for India - total_cases

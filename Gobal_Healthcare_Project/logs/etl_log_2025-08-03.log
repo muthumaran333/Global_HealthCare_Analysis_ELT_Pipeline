@@ -1,0 +1,22 @@
+2025-08-03 16:47:35,198 [INFO] Main - Loaded configuration from config.ini.
+2025-08-03 16:47:35,199 [INFO] Main - Database configuration parsed successfully.
+2025-08-03 16:47:35,516 [INFO] MySQLHandler -  Database connection established.
+2025-08-03 16:47:35,516 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-03 16:47:35,517 [INFO] Main - ETL components initialized.
+2025-08-03 16:47:35,517 [INFO] root - CLIManager initialized
+2025-08-03 16:47:35,523 [INFO] Main - Starting CLI manager.
+2025-08-03 16:47:35,524 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-03 16:47:35,540 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-03 16:47:35,542 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-03 18:42:32,946 [INFO] Main - Loaded configuration from config.ini.
+2025-08-03 18:42:32,946 [INFO] Main - Database configuration parsed successfully.
+2025-08-03 18:42:33,405 [INFO] MySQLHandler -  Database connection established.
+2025-08-03 18:42:33,406 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-03 18:42:33,406 [INFO] Main - ETL components initialized.
+2025-08-03 18:42:33,406 [INFO] root - CLIManager initialized
+2025-08-03 18:42:33,414 [INFO] Main - Starting CLI manager.
+2025-08-03 18:42:33,415 [INFO] root - Fetching data for India from 2021-01-01 to 2021-12-31
+2025-08-03 18:42:37,504 [ERROR] root - Error fetching cases: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/cases (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D7E89EBCB0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-03 18:42:41,598 [ERROR] root - Error fetching vaccinations: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/vaccinations (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D7E8ABEFD0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-03 18:42:41,598 [INFO] root - Starting transformation of cases data.
+2025-08-03 18:42:41,609 [ERROR] root - Failed during fetch/load: ['report_date', 'country_name', 'total_cases']

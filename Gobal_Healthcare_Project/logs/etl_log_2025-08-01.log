@@ -1,0 +1,60 @@
+2025-08-01 21:00:09,880 [INFO] Main - Loaded configuration from config.ini.
+2025-08-01 21:00:09,880 [INFO] Main - Database configuration parsed successfully.
+2025-08-01 21:00:10,014 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-01 21:00:10,015 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-01 21:00:10,015 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-01 21:00:10,018 [INFO] MySQLHandler -  Database connection established.
+2025-08-01 21:00:10,018 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-01 21:00:10,019 [INFO] Main - ETL components initialized.
+2025-08-01 21:00:10,019 [INFO] root - CLIManager initialized
+2025-08-01 21:00:10,029 [INFO] Main - Starting CLI manager.
+2025-08-01 21:00:10,030 [INFO] root - Fetching data for India from 2023-01-01 to 2023-01-31
+2025-08-01 21:00:10,239 [INFO] root - Successfully fetched cases data.
+2025-08-01 21:00:10,384 [INFO] root - Successfully fetched vaccination data.
+2025-08-01 21:00:10,392 [INFO] root - Starting transformation of cases data.
+2025-08-01 21:00:10,405 [INFO] root - Cases: Dropped 0 records due to missing values.
+2025-08-01 21:00:10,427 [INFO] root - Cases: Successfully transformed 3977 records.
+2025-08-01 21:00:10,427 [INFO] root - Starting transformation of vaccination data.
+2025-08-01 21:00:10,440 [INFO] root - Vaccinations: Dropped 0 records due to missing values.
+2025-08-01 21:00:10,461 [INFO] root - Vaccinations: Successfully transformed 4003 records.
+2025-08-01 21:00:10,461 [INFO] root - Loading 3977 records into 'daily_cases' table.
+2025-08-01 21:00:10,462 [INFO] MySQLHandler - Inserting 3977 records into `daily_cases`...
+2025-08-01 21:00:10,795 [INFO] MySQLHandler - Inserted 0 rows into `daily_cases`.
+2025-08-01 21:00:10,796 [INFO] root - Successfully loaded cases data.
+2025-08-01 21:00:10,796 [INFO] root - Loading 4003 records into 'vaccination_data' table.
+2025-08-01 21:00:10,797 [INFO] MySQLHandler - Inserting 4003 records into `vaccination_data`...
+2025-08-01 21:00:11,118 [INFO] MySQLHandler - Inserted 0 rows into `vaccination_data`.
+2025-08-01 21:00:11,118 [INFO] root - Successfully loaded vaccination data.
+2025-08-01 21:00:11,118 [INFO] root - Data fetch & load complete.
+2025-08-01 21:01:07,462 [INFO] Main - Loaded configuration from config.ini.
+2025-08-01 21:01:07,463 [INFO] Main - Database configuration parsed successfully.
+2025-08-01 21:01:07,567 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-01 21:01:07,568 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-01 21:01:07,568 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-01 21:01:07,571 [INFO] MySQLHandler -  Database connection established.
+2025-08-01 21:01:07,571 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-01 21:01:07,572 [INFO] Main - ETL components initialized.
+2025-08-01 21:01:07,572 [INFO] root - CLIManager initialized
+2025-08-01 21:01:07,582 [INFO] Main - Starting CLI manager.
+2025-08-01 21:01:07,583 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT report_date, new_cases
+                    FROM daily_cases
+                    WHERE country_name = 'India'
+                    ORDER BY report_date
+                    LIMIT 10;
+                
+2025-08-01 21:01:07,585 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-01 21:01:07,588 [INFO] root - Daily trends for new_cases in India queried.
+2025-08-01 21:01:41,359 [INFO] Main - Loaded configuration from config.ini.
+2025-08-01 21:01:41,359 [INFO] Main - Database configuration parsed successfully.
+2025-08-01 21:01:41,482 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-01 21:01:41,483 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-01 21:01:41,483 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-01 21:01:41,486 [INFO] MySQLHandler -  Database connection established.
+2025-08-01 21:01:41,487 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-01 21:01:41,487 [INFO] Main - ETL components initialized.
+2025-08-01 21:01:41,487 [INFO] root - CLIManager initialized
+2025-08-01 21:01:41,499 [INFO] Main - Starting CLI manager.
+2025-08-01 21:01:41,500 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-01 21:01:41,508 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-01 21:01:41,511 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'india' limit 10;

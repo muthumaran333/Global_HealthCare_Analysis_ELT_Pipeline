@@ -1,0 +1,297 @@
+2025-08-02 10:27:38,382 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:27:38,382 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:27:38,700 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:27:38,702 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:27:38,702 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:27:38,798 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:27:38,799 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:27:38,800 [INFO] Main - ETL components initialized.
+2025-08-02 10:27:38,800 [INFO] root - CLIManager initialized
+2025-08-02 10:27:38,815 [INFO] Main - Starting CLI manager.
+2025-08-02 10:27:38,817 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-02 10:27:38,897 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-02 10:27:38,900 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-02 10:28:04,703 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:28:04,704 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:28:04,823 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:28:04,824 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:28:04,824 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:28:04,828 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:28:04,828 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:28:04,828 [INFO] Main - ETL components initialized.
+2025-08-02 10:28:04,828 [INFO] root - CLIManager initialized
+2025-08-02 10:28:04,836 [INFO] Main - Starting CLI manager.
+2025-08-02 10:28:04,837 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT report_date, new_cases
+                    FROM daily_cases
+                    WHERE country_name = 'India'
+                    ORDER BY report_date
+                    LIMIT 10;
+                
+2025-08-02 10:28:04,848 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-02 10:28:04,851 [INFO] root - Daily trends for new_cases in India queried.
+2025-08-02 10:28:18,744 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:28:18,745 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:28:18,857 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:28:18,858 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:28:18,858 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:28:18,864 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:28:18,865 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:28:18,865 [INFO] Main - ETL components initialized.
+2025-08-02 10:28:18,865 [INFO] root - CLIManager initialized
+2025-08-02 10:28:18,876 [INFO] Main - Starting CLI manager.
+2025-08-02 10:28:18,877 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'china';
+2025-08-02 10:28:18,898 [INFO] MySQLHandler -  Query executed. Rows returned: 327
+2025-08-02 10:28:18,936 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'china';
+2025-08-02 10:28:39,487 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:28:39,488 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:28:39,607 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:28:39,608 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:28:39,608 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:28:39,613 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:28:39,614 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:28:39,614 [INFO] Main - ETL components initialized.
+2025-08-02 10:28:39,615 [INFO] root - CLIManager initialized
+2025-08-02 10:28:39,624 [INFO] Main - Starting CLI manager.
+2025-08-02 10:28:55,355 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:28:55,356 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:28:55,469 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:28:55,469 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:28:55,469 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:28:55,473 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:28:55,473 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:28:55,474 [INFO] Main - ETL components initialized.
+2025-08-02 10:28:55,474 [INFO] root - CLIManager initialized
+2025-08-02 10:28:55,482 [INFO] Main - Starting CLI manager.
+2025-08-02 10:28:55,483 [INFO] MySQLHandler - Executing SQL query: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 10:28:55,504 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 10:28:55,506 [INFO] root - Executed SQL: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 10:29:07,613 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:29:07,614 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:29:07,721 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:29:07,722 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:29:07,722 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:29:07,726 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:29:07,726 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:29:07,727 [INFO] Main - ETL components initialized.
+2025-08-02 10:29:07,727 [INFO] root - CLIManager initialized
+2025-08-02 10:29:07,739 [INFO] Main - Starting CLI manager.
+2025-08-02 10:29:40,770 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:29:40,771 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:29:40,887 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:29:40,887 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:29:40,888 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:29:40,891 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:29:40,891 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:29:40,892 [INFO] Main - ETL components initialized.
+2025-08-02 10:29:40,892 [INFO] root - CLIManager initialized
+2025-08-02 10:29:40,901 [INFO] Main - Starting CLI manager.
+2025-08-02 10:29:40,902 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT report_date, new_cases
+                    FROM daily_cases
+                    WHERE country_name = 'India'
+                    ORDER BY report_date
+                    LIMIT 10;
+                
+2025-08-02 10:29:40,910 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-02 10:29:40,912 [INFO] root - Daily trends for new_cases in India queried.
+2025-08-02 10:29:54,930 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:29:54,931 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:29:55,046 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:29:55,047 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:29:55,047 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:29:55,051 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:29:55,051 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:29:55,052 [INFO] Main - ETL components initialized.
+2025-08-02 10:29:55,052 [INFO] root - CLIManager initialized
+2025-08-02 10:29:55,062 [INFO] Main - Starting CLI manager.
+2025-08-02 10:29:55,063 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT country_name, SUM(total_cases) AS total
+                    FROM daily_cases
+                    GROUP BY country_name
+                    ORDER BY total DESC
+                    LIMIT 5;
+                
+2025-08-02 10:29:55,105 [INFO] MySQLHandler -  Query executed. Rows returned: 5
+2025-08-02 10:29:55,107 [INFO] root - Top 5 countries by total_cases queried.
+2025-08-02 10:30:11,361 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:30:11,361 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:30:11,474 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:30:11,475 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:30:11,475 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:30:11,479 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:30:11,479 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:30:11,480 [INFO] Main - ETL components initialized.
+2025-08-02 10:30:11,480 [INFO] root - CLIManager initialized
+2025-08-02 10:30:11,495 [INFO] Main - Starting CLI manager.
+2025-08-02 10:30:11,496 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT country_name, SUM(total_cases) as total_cases
+                    FROM daily_cases 
+                    WHERE country_name = 'India'
+                    GROUP BY country_name;
+                
+2025-08-02 10:30:11,500 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 10:30:11,502 [INFO] root - Total cases queried for India
+2025-08-02 10:36:13,477 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:36:13,477 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:36:13,720 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:36:13,720 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:36:13,721 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:36:13,724 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:36:13,724 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:36:13,725 [INFO] Main - ETL components initialized.
+2025-08-02 10:36:13,725 [INFO] root - CLIManager initialized
+2025-08-02 10:36:13,735 [INFO] Main - Starting CLI manager.
+2025-08-02 10:36:13,736 [INFO] root - Fetching data for India from 2021-01-01 to 2021-12-31
+2025-08-02 10:36:17,838 [ERROR] root - Error fetching cases: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/cases (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A975AE16A0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-02 10:36:21,920 [ERROR] root - Error fetching vaccinations: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/vaccinations (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002A975AF5950>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-02 10:36:21,920 [INFO] root - Starting transformation of cases data.
+2025-08-02 10:36:22,002 [ERROR] root - Failed during fetch/load: ['report_date', 'country_name', 'total_cases']
+2025-08-02 10:36:37,261 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:36:37,261 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:36:37,383 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:36:37,384 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:36:37,384 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:36:37,390 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:36:37,391 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:36:37,392 [INFO] Main - ETL components initialized.
+2025-08-02 10:36:37,396 [INFO] root - CLIManager initialized
+2025-08-02 10:36:37,418 [INFO] Main - Starting CLI manager.
+2025-08-02 10:36:37,420 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT report_date, new_cases
+                    FROM daily_cases
+                    WHERE country_name = 'India'
+                    ORDER BY report_date
+                    LIMIT 10;
+                
+2025-08-02 10:36:37,427 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-02 10:36:37,448 [INFO] root - Daily trends for new_cases in India queried.
+2025-08-02 10:37:08,490 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:37:08,491 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:37:08,602 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:37:08,603 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:37:08,603 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:37:08,606 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:37:08,606 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:37:08,607 [INFO] Main - ETL components initialized.
+2025-08-02 10:37:08,607 [INFO] root - CLIManager initialized
+2025-08-02 10:37:08,620 [INFO] Main - Starting CLI manager.
+2025-08-02 10:37:08,621 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT country_name, SUM(total_cases) as total_cases
+                    FROM daily_cases 
+                    WHERE country_name = 'India'
+                    GROUP BY country_name;
+                
+2025-08-02 10:37:08,628 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 10:37:08,629 [INFO] root - Total cases queried for India
+2025-08-02 10:37:31,638 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:37:31,639 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:37:31,750 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:37:31,751 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:37:31,751 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:37:31,758 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:37:31,759 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:37:31,759 [INFO] Main - ETL components initialized.
+2025-08-02 10:37:31,760 [INFO] root - CLIManager initialized
+2025-08-02 10:37:31,772 [INFO] Main - Starting CLI manager.
+2025-08-02 10:37:31,773 [INFO] MySQLHandler - Executing SQL query: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 10:37:31,779 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 10:37:31,781 [INFO] root - Executed SQL: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 10:37:40,090 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 10:37:40,090 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 10:37:40,193 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 10:37:40,194 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 10:37:40,194 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 10:37:40,198 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 10:37:40,198 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 10:37:40,199 [INFO] Main - ETL components initialized.
+2025-08-02 10:37:40,199 [INFO] root - CLIManager initialized
+2025-08-02 10:37:40,208 [INFO] Main - Starting CLI manager.
+2025-08-02 10:37:40,210 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'china';
+2025-08-02 10:37:40,223 [INFO] MySQLHandler -  Query executed. Rows returned: 327
+2025-08-02 10:37:40,256 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'china';
+2025-08-02 12:41:56,360 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 12:41:56,361 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 12:41:56,556 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 12:41:56,557 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 12:41:56,557 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 12:41:56,569 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 12:41:56,570 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 12:41:56,572 [INFO] Main - ETL components initialized.
+2025-08-02 12:41:56,572 [INFO] root - CLIManager initialized
+2025-08-02 12:41:56,586 [INFO] Main - Starting CLI manager.
+2025-08-02 12:41:56,588 [INFO] MySQLHandler - Executing SQL query: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 12:41:56,607 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 12:41:56,610 [INFO] root - Executed SQL: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 12:42:05,232 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 12:42:05,232 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 12:42:05,345 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 12:42:05,345 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 12:42:05,345 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 12:42:05,351 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 12:42:05,352 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 12:42:05,352 [INFO] Main - ETL components initialized.
+2025-08-02 12:42:05,353 [INFO] root - CLIManager initialized
+2025-08-02 12:42:05,359 [INFO] Main - Starting CLI manager.
+2025-08-02 12:42:05,360 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'china';
+2025-08-02 12:42:05,385 [INFO] MySQLHandler -  Query executed. Rows returned: 327
+2025-08-02 12:42:05,424 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'china';
+2025-08-02 12:42:13,603 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 12:42:13,603 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 12:42:13,727 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 12:42:13,728 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 12:42:13,728 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 12:42:13,735 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 12:42:13,736 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 12:42:13,736 [INFO] Main - ETL components initialized.
+2025-08-02 12:42:13,736 [INFO] root - CLIManager initialized
+2025-08-02 12:42:13,748 [INFO] Main - Starting CLI manager.
+2025-08-02 12:42:13,749 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT country_name, SUM(total_cases) as total_cases
+                    FROM daily_cases 
+                    WHERE country_name = 'India'
+                    GROUP BY country_name;
+                
+2025-08-02 12:42:13,760 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 12:42:13,763 [INFO] root - Total cases queried for India
+2025-08-02 19:05:45,579 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 19:05:45,579 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 19:05:45,797 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 19:05:45,797 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 19:05:45,798 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 19:05:45,803 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 19:05:45,804 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 19:05:45,804 [INFO] Main - ETL components initialized.
+2025-08-02 19:05:45,804 [INFO] root - CLIManager initialized
+2025-08-02 19:05:45,810 [INFO] Main - Starting CLI manager.
+2025-08-02 19:05:45,810 [INFO] MySQLHandler - Executing SQL query: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 19:05:45,820 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-02 19:05:45,821 [INFO] root - Executed SQL: SELECT COUNT(*) FROM daily_cases;
+2025-08-02 19:05:55,813 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 19:05:55,814 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 19:05:55,894 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 19:05:55,894 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 19:05:55,895 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 19:05:55,897 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 19:05:55,897 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 19:05:55,897 [INFO] Main - ETL components initialized.
+2025-08-02 19:05:55,897 [INFO] root - CLIManager initialized
+2025-08-02 19:05:55,902 [INFO] Main - Starting CLI manager.
+2025-08-02 19:05:55,902 [INFO] root - Fetching data for India from 2021-01-01 to 2021-12-31
+2025-08-02 19:05:59,963 [ERROR] root - Error fetching cases: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/cases (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D241FC6E0>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-02 19:06:04,032 [ERROR] root - Error fetching vaccinations: HTTPConnectionPool(host='localhost', port=3000): Max retries exceeded with url: /api/vaccinations (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023D24210910>: Failed to establish a new connection: [WinError 10061] No connection could be made because the target machine actively refused it'))
+2025-08-02 19:06:04,033 [INFO] root - Starting transformation of cases data.
+2025-08-02 19:06:04,071 [ERROR] root - Failed during fetch/load: ['report_date', 'country_name', 'total_cases']
+2025-08-02 19:06:12,737 [INFO] Main - Loaded configuration from config.ini.
+2025-08-02 19:06:12,738 [INFO] Main - Database configuration parsed successfully.
+2025-08-02 19:06:12,813 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-02 19:06:12,814 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-02 19:06:12,814 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-02 19:06:12,816 [INFO] MySQLHandler -  Database connection established.
+2025-08-02 19:06:12,816 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-02 19:06:12,817 [INFO] Main - ETL components initialized.
+2025-08-02 19:06:12,817 [INFO] root - CLIManager initialized
+2025-08-02 19:06:12,822 [INFO] Main - Starting CLI manager.
+2025-08-02 19:06:12,823 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-02 19:06:12,827 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-02 19:06:12,830 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'india' limit 10;
