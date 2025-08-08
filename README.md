@@ -41,8 +41,8 @@ The solution uses a **Python + Pandas ETL pipeline** to extract data from a publ
 
 | Command Example                    | Output                        |
 | ---------------------------------- | ----------------------------- |
-| ![CLI Fetch](Gobal_Healthcare_Project\images/Cli1.png)      | ![CLI Query](Gobal_Healthcare_Project\images/Cli2.png) |
-| ![CLI Custom SQL](Gobal_Healthcare_Project\images/cli3.png) |     ![CLI Custom SQL](Gobal_Healthcare_Project\images/Cli4.png)                          |
+| ![CLI Fetch](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Cli1.png)      | ![CLI Query]([Gobal_Healthcare_Project\images/Cli2.png](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Cli2.png)) |
+| ![CLI Custom SQL](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/cli3.png) |     ![CLI Custom SQL]([Gobal_Healthcare_Project\images/Cli4.png](https://github.com/muthumaran333/Global_HealthCare_Analysis_ELT_Pipeline/blob/main/Gobal_Healthcare_Project/images/Cli4.png))                          |
 
 ---
 
