@@ -1,0 +1,54 @@
+2025-08-08 10:14:32,282 [INFO] numexpr.utils - NumExpr defaulting to 12 threads.
+2025-08-08 10:14:32,551 [INFO] Main - Loaded configuration from config.ini.
+2025-08-08 10:14:32,552 [INFO] Main - Database configuration parsed successfully.
+2025-08-08 10:14:33,113 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-08 10:14:33,113 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-08 10:14:33,114 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-08 10:14:33,121 [INFO] MySQLHandler -  Database connection established.
+2025-08-08 10:14:33,121 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-08 10:14:33,122 [INFO] Main - ETL components initialized.
+2025-08-08 10:14:33,122 [INFO] root - CLIManager initialized
+2025-08-08 10:14:33,131 [INFO] Main - Starting CLI manager.
+2025-08-08 10:14:33,132 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'china';
+2025-08-08 10:14:33,144 [INFO] MySQLHandler -  Query executed. Rows returned: 327
+2025-08-08 10:14:33,182 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'china';
+2025-08-08 10:15:34,299 [INFO] numexpr.utils - NumExpr defaulting to 12 threads.
+2025-08-08 10:15:34,519 [INFO] Main - Loaded configuration from config.ini.
+2025-08-08 10:15:34,520 [INFO] Main - Database configuration parsed successfully.
+2025-08-08 10:15:35,155 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-08 10:15:35,156 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-08 10:15:35,156 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-08 10:15:35,158 [INFO] MySQLHandler -  Database connection established.
+2025-08-08 10:15:35,158 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-08 10:15:35,159 [INFO] Main - ETL components initialized.
+2025-08-08 10:15:35,159 [INFO] root - CLIManager initialized
+2025-08-08 10:15:35,163 [INFO] Main - Starting CLI manager.
+2025-08-08 10:15:35,164 [INFO] MySQLHandler - Executing SQL query: 
+                    SELECT country_name, SUM(total_cases) as total_cases
+                    FROM daily_cases 
+                    WHERE country_name = 'India'
+                    GROUP BY country_name;
+                
+2025-08-08 10:15:35,174 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-08 10:15:35,177 [INFO] root - Total cases queried for India
+2025-08-08 10:16:02,848 [INFO] numexpr.utils - NumExpr defaulting to 12 threads.
+2025-08-08 10:16:03,044 [INFO] Main - Loaded configuration from config.ini.
+2025-08-08 10:16:03,044 [INFO] Main - Database configuration parsed successfully.
+2025-08-08 10:16:03,639 [INFO] mysql.connector - package: mysql.connector.plugins
+2025-08-08 10:16:03,639 [INFO] mysql.connector - plugin_name: caching_sha2_password
+2025-08-08 10:16:03,639 [INFO] mysql.connector - AUTHENTICATION_PLUGIN_CLASS: MySQLCachingSHA2PasswordAuthPlugin
+2025-08-08 10:16:03,641 [INFO] MySQLHandler -  Database connection established.
+2025-08-08 10:16:03,641 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-08 10:16:03,641 [INFO] Main - ETL components initialized.
+2025-08-08 10:16:03,641 [INFO] root - CLIManager initialized
+2025-08-08 10:16:03,645 [INFO] Main - Starting CLI manager.
+2025-08-08 10:16:57,021 [INFO] Main - Loaded configuration from config.ini.
+2025-08-08 10:16:57,022 [INFO] Main - Database configuration parsed successfully.
+2025-08-08 10:16:57,372 [INFO] MySQLHandler -  Database connection established.
+2025-08-08 10:16:57,372 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-08 10:16:57,373 [INFO] Main - ETL components initialized.
+2025-08-08 10:16:57,373 [INFO] root - CLIManager initialized
+2025-08-08 10:16:57,380 [INFO] Main - Starting CLI manager.
+2025-08-08 10:16:57,381 [INFO] MySQLHandler - Executing SQL query: SELECT COUNT(*) FROM daily_cases;
+2025-08-08 10:16:57,392 [INFO] MySQLHandler -  Query executed. Rows returned: 1
+2025-08-08 10:16:57,394 [INFO] root - Executed SQL: SELECT COUNT(*) FROM daily_cases;
