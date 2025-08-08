@@ -52,3 +52,13 @@
 2025-08-08 10:16:57,381 [INFO] MySQLHandler - Executing SQL query: SELECT COUNT(*) FROM daily_cases;
 2025-08-08 10:16:57,392 [INFO] MySQLHandler -  Query executed. Rows returned: 1
 2025-08-08 10:16:57,394 [INFO] root - Executed SQL: SELECT COUNT(*) FROM daily_cases;
+2025-08-08 10:52:23,071 [INFO] Main - Loaded configuration from config.ini.
+2025-08-08 10:52:23,071 [INFO] Main - Database configuration parsed successfully.
+2025-08-08 10:52:23,703 [INFO] MySQLHandler -  Database connection established.
+2025-08-08 10:52:23,704 [INFO] root - APIClient initialized with base URL: http://localhost:3000/api
+2025-08-08 10:52:23,704 [INFO] Main - ETL components initialized.
+2025-08-08 10:52:23,704 [INFO] root - CLIManager initialized
+2025-08-08 10:52:23,715 [INFO] Main - Starting CLI manager.
+2025-08-08 10:52:23,716 [INFO] MySQLHandler - Executing SQL query: select * from daily_cases where country_name = 'india' limit 10;
+2025-08-08 10:52:23,765 [INFO] MySQLHandler -  Query executed. Rows returned: 10
+2025-08-08 10:52:23,767 [INFO] root - Executed SQL: select * from daily_cases where country_name = 'india' limit 10;
